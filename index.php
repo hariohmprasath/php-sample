@@ -5,6 +5,7 @@
   </head>
   <body>
     <img style="display: block; margin-left: auto; margin-right: auto; width: 50%;" src="https://paketo.io/images/paketo-logo-full-color.png"></img>
+  <h1> Running PHP Runtime on AppRunner </h1>
 <?php
     foreach (get_loaded_extensions() as $ext) {
         print($ext . "\n");
